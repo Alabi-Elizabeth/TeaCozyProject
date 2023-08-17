@@ -1,0 +1,111 @@
+/*Universal Styles*/
+html {
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+
+/*Body*/
+body {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: #000000;
+    font-size: 22px;
+    opacity: 0.9;
+    margin: 0px;
+    text-align: center;
+}
+
+/*Header*/
+.header {   
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  border: 1px solid seashell;
+  opacity: 0.9;
+}
+
+.header img {
+    margin: 10px;
+    height: 50px;
+}
+
+/*Nav*/
+    
+li { 
+    display: inline-flex;
+    padding: 0 10px;
+}
+
+a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+/*main*/
+/*mission*/
+#mission {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*13rvg98*_ga*NTQyOTM1NDQzMi4xNjc0MzE5ODg0*_ga_3LRZM6TM9L*MTY5MTc4NDgwNi4xMzQuMC4xNjkxNzg0ODA2LjYwLjAuMA..);
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    background-color: #000000;
+    width: 100%;
+}
+
+/*Tea*/
+#featured-tea {
+    width: 1000px;
+    margin: auto; 
+}
+
+.figure-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+#featured-tea img {
+    width: 300px;
+    height: 200px;
+}
+
+/*locations*/
+
+#locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*184byhm*_ga*NTQyOTM1NDQzMi4xNjc0MzE5ODg0*_ga_3LRZM6TM9L*MTY5MTc4NDgwNi4xMzQuMC4xNjkxNzg0ODA2LjYwLjAuMA..);
+    height: 500px;
+    background-size: cover;
+    margin: 0 40px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+    margin-top: 15px;
+    opacity: 1;
+}
+
+.downtown,
+.east-bayside,
+.oakdale {
+    background-color: #000000;
+    width: 300px;
+}
+
+.cozy {
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
